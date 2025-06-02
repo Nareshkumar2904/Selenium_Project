@@ -2,6 +2,7 @@ package Generic_Utilities;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -34,12 +35,17 @@ public class BaseTest {
 
 	@BeforeMethod
 	public void beforeMethod() {
+		driver.findElement(By.linkText("Log in")).click();
+		driver.findElement(By.id("Email")).sendKeys("naresh006@gmail.com");
+		driver.findElement(By.id("Password")).sendKeys("Crocodile");
+		driver.findElement(By.id("RememberMe")).click();
+		driver.findElement(By.xpath("//input[@value='Log in']")).click();
 
 	}
 
 	@AfterMethod
 	public void afterMethod() {
-
+		driver.findElement(By.linkText("Log out")).click();
 	}
 
 	@AfterSuite
