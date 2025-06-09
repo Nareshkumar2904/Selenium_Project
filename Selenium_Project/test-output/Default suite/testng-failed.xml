@@ -3,20 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScripts.WishListTest">
+      <class name="TestScripts.AddressTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="updateWishList"/>
           <include name="beforeClass"/>
-          <include name="removeWishList"/>
+          <include name="removeAddress"/>
           <include name="afterSuite"/>
           <include name="afterMethod"/>
           <include name="afterClass"/>
-          <include name="addToCartFromWishList"/>
-          <include name="addToWishList"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- TestScripts.WishListTest -->
+      </class> <!-- TestScripts.AddressTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

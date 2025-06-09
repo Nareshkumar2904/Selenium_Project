@@ -8,13 +8,236 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">33,379</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">90,043</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">3</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">6</td><td class="num">236,397</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test3</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">98,015</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">23</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">6</th><th class="num">424,455</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestScripts.CartTest</td><td><a href="#m0">addToCart</a></td><td rowspan="1">1749032010708</td><td rowspan="1">4561</td></tr><tr class="passedeven"><td><a href="#m1">removeFromCart</a></td><td rowspan="1">1749032027614</td><td rowspan="1">2904</td></tr><tr class="passedeven"><td><a href="#m2">updateCart</a></td><td rowspan="1">1749032021045</td><td rowspan="1">2524</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestScripts.AddressTest</td><td><a href="#m0">addAddress</a></td><td rowspan="1">1749463505956</td><td rowspan="1">5500</td></tr><tr class="passedeven"><td><a href="#m1">removeAddress</a></td><td rowspan="1">1749463521156</td><td rowspan="1">13728</td></tr><tr class="passedeven"><td><a href="#m2">updateAddress</a></td><td rowspan="1">1749463514231</td><td rowspan="1">4182</td></tr><tr class="passedodd"><td rowspan="3">TestScripts.CartTest</td><td><a href="#m3">addToCart</a></td><td rowspan="1">1749463457788</td><td rowspan="1">3943</td></tr><tr class="passedodd"><td><a href="#m4">removeFromCart</a></td><td rowspan="1">1749463469185</td><td rowspan="1">2169</td></tr><tr class="passedodd"><td><a href="#m5">updateCart</a></td><td rowspan="1">1749463464685</td><td rowspan="1">1725</td></tr><tr class="passedeven"><td rowspan="4">TestScripts.WishListTest</td><td><a href="#m6">addToCartFromWishList</a></td><td rowspan="1">1749463491083</td><td rowspan="1">2155</td></tr><tr class="passedeven"><td><a href="#m7">addToWishList</a></td><td rowspan="1">1749463480650</td><td rowspan="1">2689</td></tr><tr class="passedeven"><td><a href="#m8">removeWishList</a></td><td rowspan="1">1749463495183</td><td rowspan="1">2229</td></tr><tr class="passedeven"><td><a href="#m9">updateWishList</a></td><td rowspan="1">1749463486496</td><td rowspan="1">1422</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test2 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">TestScripts.CartTest</td><td><a href="#m10">afterMethod</a></td><td rowspan="1">1749463625529</td><td rowspan="1">20281</td></tr><tr class="failedeven"><td><a href="#m11">beforeMethod</a></td><td rowspan="1">1749463600063</td><td rowspan="1">25439</td></tr><tr><th colspan="4">Test2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestScripts.CartTest</td><td><a href="#m12">addToCart</a></td><td rowspan="1">1749463550691</td><td rowspan="1">22931</td></tr><tr class="failedeven"><td><a href="#m13">updateCart</a></td><td rowspan="1">1749463578176</td><td rowspan="1">20807</td></tr><tr class="failedodd"><td rowspan="4">TestScripts.WishListTest</td><td><a href="#m14">addToCartFromWishList</a></td><td rowspan="1">1749463689937</td><td rowspan="1">20512</td></tr><tr class="failedodd"><td><a href="#m15">addToWishList</a></td><td rowspan="1">1749463662144</td><td rowspan="1">1677</td></tr><tr class="failedodd"><td><a href="#m16">removeWishList</a></td><td rowspan="1">1749463713152</td><td rowspan="1">20543</td></tr><tr class="failedodd"><td><a href="#m17">updateWishList</a></td><td rowspan="1">1749463666730</td><td rowspan="1">20612</td></tr><tr><th colspan="4">Test2 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">TestScripts.CartTest</td><td><a href="#m18">removeFromCart</a></td><td rowspan="1">1749463625515</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestScripts.AddressTest</td><td><a href="#m19">addAddress</a></td><td rowspan="1">1749463749242</td><td rowspan="1">4885</td></tr><tr class="passedeven"><td><a href="#m20">removeAddress</a></td><td rowspan="1">1749463763901</td><td rowspan="1">1734</td></tr><tr class="passedeven"><td><a href="#m21">updateAddress</a></td><td rowspan="1">1749463757091</td><td rowspan="1">4235</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestScripts.AddressTest</td><td><a href="#m22">addAddress</a></td><td rowspan="1">1749463837985</td><td rowspan="1">5510</td></tr><tr class="passedeven"><td><a href="#m23">removeAddress</a></td><td rowspan="1">1749463853498</td><td rowspan="1">15898</td></tr><tr class="passedeven"><td><a href="#m24">updateAddress</a></td><td rowspan="1">1749463846559</td><td rowspan="1">4243</td></tr><tr class="passedodd"><td rowspan="3">TestScripts.CartTest</td><td><a href="#m25">addToCart</a></td><td rowspan="1">1749463787563</td><td rowspan="1">3625</td></tr><tr class="passedodd"><td><a href="#m26">removeFromCart</a></td><td rowspan="1">1749463798591</td><td rowspan="1">2168</td></tr><tr class="passedodd"><td><a href="#m27">updateCart</a></td><td rowspan="1">1749463794059</td><td rowspan="1">1791</td></tr><tr class="passedeven"><td rowspan="4">TestScripts.WishListTest</td><td><a href="#m28">addToCartFromWishList</a></td><td rowspan="1">1749463821045</td><td rowspan="1">2029</td></tr><tr class="passedeven"><td><a href="#m29">addToWishList</a></td><td rowspan="1">1749463811555</td><td rowspan="1">2653</td></tr><tr class="passedeven"><td><a href="#m30">removeWishList</a></td><td rowspan="1">1749463826039</td><td rowspan="1">1421</td></tr><tr class="passedeven"><td><a href="#m31">updateWishList</a></td><td rowspan="1">1749463816907</td><td rowspan="1">1497</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">TestScripts.CartTest#addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestScripts.CartTest#removeFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestScripts.CartTest#updateCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1</h2><h3 id="m0">TestScripts.AddressTest#addAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestScripts.AddressTest#removeAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestScripts.AddressTest#updateAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestScripts.CartTest#addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestScripts.CartTest#removeFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestScripts.CartTest#updateCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestScripts.WishListTest#addToCartFromWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestScripts.WishListTest#addToWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestScripts.WishListTest#removeWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestScripts.WishListTest#updateWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test2</h2><h3 id="m10">TestScripts.CartTest#afterMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Log out
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at Generic_Utilities.BaseTest.afterMethod(BaseTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestScripts.CartTest#beforeMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #Email
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at Generic_Utilities.BaseTest.beforeMethod(BaseTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestScripts.CartTest#addToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //h1[contains(text(),&apos;Smartphone&apos;)]/ancestor::div[@class=&apos;overview&apos;]/descendant::input[@value=&apos;Add to cart&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=xpath, value=//h1[contains(text(),&apos;Smartphone&apos;)]/ancestor::div[@class=&apos;overview&apos;]/descendant::input[@value=&apos;Add to cart&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at TestScripts.CartTest.addToCart(CartTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestScripts.CartTest#updateCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@class=&apos;qty-input&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=xpath, value=//input[@class=&apos;qty-input&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at TestScripts.CartTest.updateCart(CartTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestScripts.WishListTest#addToCartFromWishList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;addtocart&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=name, value=addtocart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at TestScripts.WishListTest.addToCartFromWishList(WishListTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TestScripts.WishListTest#addToWishList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: Given link text expression &quot;Smartphone&quot; is invalid: JavaScriptError: [Exception... &quot;Security Manager vetoed action&quot;  nsresult: &quot;0x80570027 (NS_ERROR_XPC_SECURITY_MANAGER_VETO)&quot;  location: &quot;JS frame :: dummy file :: T :: line 15&quot;  data: no]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=link text, value=Smartphone}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at TestScripts.WishListTest.addToWishList(WishListTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">TestScripts.WishListTest#removeWishList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;removefromcart&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=xpath, value=//input[@name=&apos;removefromcart&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at TestScripts.WishListTest.removeWishList(WishListTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">TestScripts.WishListTest#updateWishList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@class=&apos;qty-input&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=xpath, value=//input[@class=&apos;qty-input&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at TestScripts.WishListTest.updateWishList(WishListTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">TestScripts.CartTest#removeFromCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #Email
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at Generic_Utilities.BaseTest.beforeMethod(BaseTest.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">TestScripts.AddressTest#addAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">TestScripts.AddressTest#removeAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">TestScripts.AddressTest#updateAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test3</h2><h3 id="m22">TestScripts.AddressTest#addAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">TestScripts.AddressTest#removeAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">TestScripts.AddressTest#updateAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">TestScripts.CartTest#addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">TestScripts.CartTest#removeFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">TestScripts.CartTest#updateCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">TestScripts.WishListTest#addToCartFromWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m29">TestScripts.WishListTest#addToWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m30">TestScripts.WishListTest#removeWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m31">TestScripts.WishListTest#updateWishList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

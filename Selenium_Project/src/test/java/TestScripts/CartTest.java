@@ -14,7 +14,7 @@ import Generic_Utilities.BaseTest;
 
 public class CartTest extends BaseTest {
 
-	@Test(priority = 1)
+	@Test(priority = 1, groups = {"sanity","regression"})
 	public void addToCart() throws Exception {
 		driver.findElement(By.name("q")).sendKeys("smartphone", Keys.ENTER);
 		driver.findElement(By.linkText("Smartphone")).click();
@@ -28,7 +28,7 @@ public class CartTest extends BaseTest {
 		FileHandler.copy(src1, desc1);
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2,groups = {"sanity","regression"})
 	public void updateCart() throws Exception {
 		driver.findElement(By.xpath("//span[text()='Shopping cart']")).click();
 		WebElement element = driver.findElement(By.xpath("//input[@class='qty-input']"));
@@ -41,7 +41,7 @@ public class CartTest extends BaseTest {
 		FileHandler.copy(src3, desc3);
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3,groups = "sanity")
 	public void removeFromCart() throws Exception {
 		driver.findElement(By.xpath("//span[text()='Shopping cart']")).click();
 		driver.findElement(By.xpath("//input[@name='removefromcart']")).click();

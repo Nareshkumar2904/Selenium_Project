@@ -1,65 +1,1204 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="30" passed="23" failed="6" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-04T15:43:18 IST" name="Default suite" finished-at="2025-06-04T15:43:52 IST" duration-ms="33379">
+  <suite started-at="2025-06-09T15:34:07 IST" name="Suite" finished-at="2025-06-09T15:41:11 IST" duration-ms="424688">
     <groups>
+      <group name="regression">
+        <method signature="CartTest.addToCart()[pri:1, instance:TestScripts.CartTest@28261e8e]" name="addToCart" class="TestScripts.CartTest"/>
+        <method signature="AddressTest.updateAddress()[pri:2, instance:TestScripts.AddressTest@5f049ea1]" name="updateAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.updateCart()[pri:2, instance:TestScripts.CartTest@28261e8e]" name="updateCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.updateWishList()[pri:2, instance:TestScripts.WishListTest@3f191845]" name="updateWishList" class="TestScripts.WishListTest"/>
+        <method signature="CartTest.addToCart()[pri:1, instance:TestScripts.CartTest@548a24a]" name="addToCart" class="TestScripts.CartTest"/>
+        <method signature="AddressTest.updateAddress()[pri:2, instance:TestScripts.AddressTest@2a693f59]" name="updateAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.updateCart()[pri:2, instance:TestScripts.CartTest@548a24a]" name="updateCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.updateWishList()[pri:2, instance:TestScripts.WishListTest@433defed]" name="updateWishList" class="TestScripts.WishListTest"/>
+        <method signature="CartTest.addToCart()[pri:1, instance:TestScripts.CartTest@7fd50002]" name="addToCart" class="TestScripts.CartTest"/>
+        <method signature="AddressTest.updateAddress()[pri:2, instance:TestScripts.AddressTest@304bb45b]" name="updateAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.updateCart()[pri:2, instance:TestScripts.CartTest@7fd50002]" name="updateCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.updateWishList()[pri:2, instance:TestScripts.WishListTest@533bda92]" name="updateWishList" class="TestScripts.WishListTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="AddressTest.addAddress()[pri:1, instance:TestScripts.AddressTest@5f049ea1]" name="addAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.addToCart()[pri:1, instance:TestScripts.CartTest@28261e8e]" name="addToCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.addToWishList()[pri:1, instance:TestScripts.WishListTest@3f191845]" name="addToWishList" class="TestScripts.WishListTest"/>
+        <method signature="AddressTest.updateAddress()[pri:2, instance:TestScripts.AddressTest@5f049ea1]" name="updateAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.updateCart()[pri:2, instance:TestScripts.CartTest@28261e8e]" name="updateCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.updateWishList()[pri:2, instance:TestScripts.WishListTest@3f191845]" name="updateWishList" class="TestScripts.WishListTest"/>
+        <method signature="AddressTest.removeAddress()[pri:3, instance:TestScripts.AddressTest@5f049ea1]" name="removeAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.removeFromCart()[pri:3, instance:TestScripts.CartTest@28261e8e]" name="removeFromCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.addToCartFromWishList()[pri:3, instance:TestScripts.WishListTest@3f191845]" name="addToCartFromWishList" class="TestScripts.WishListTest"/>
+        <method signature="AddressTest.addAddress()[pri:1, instance:TestScripts.AddressTest@2a693f59]" name="addAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.addToCart()[pri:1, instance:TestScripts.CartTest@548a24a]" name="addToCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.addToWishList()[pri:1, instance:TestScripts.WishListTest@433defed]" name="addToWishList" class="TestScripts.WishListTest"/>
+        <method signature="AddressTest.updateAddress()[pri:2, instance:TestScripts.AddressTest@2a693f59]" name="updateAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.updateCart()[pri:2, instance:TestScripts.CartTest@548a24a]" name="updateCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.updateWishList()[pri:2, instance:TestScripts.WishListTest@433defed]" name="updateWishList" class="TestScripts.WishListTest"/>
+        <method signature="AddressTest.removeAddress()[pri:3, instance:TestScripts.AddressTest@2a693f59]" name="removeAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.removeFromCart()[pri:3, instance:TestScripts.CartTest@548a24a]" name="removeFromCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.addToCartFromWishList()[pri:3, instance:TestScripts.WishListTest@433defed]" name="addToCartFromWishList" class="TestScripts.WishListTest"/>
+        <method signature="AddressTest.addAddress()[pri:1, instance:TestScripts.AddressTest@304bb45b]" name="addAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.addToCart()[pri:1, instance:TestScripts.CartTest@7fd50002]" name="addToCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.addToWishList()[pri:1, instance:TestScripts.WishListTest@533bda92]" name="addToWishList" class="TestScripts.WishListTest"/>
+        <method signature="AddressTest.updateAddress()[pri:2, instance:TestScripts.AddressTest@304bb45b]" name="updateAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.updateCart()[pri:2, instance:TestScripts.CartTest@7fd50002]" name="updateCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.updateWishList()[pri:2, instance:TestScripts.WishListTest@533bda92]" name="updateWishList" class="TestScripts.WishListTest"/>
+        <method signature="AddressTest.removeAddress()[pri:3, instance:TestScripts.AddressTest@304bb45b]" name="removeAddress" class="TestScripts.AddressTest"/>
+        <method signature="CartTest.removeFromCart()[pri:3, instance:TestScripts.CartTest@7fd50002]" name="removeFromCart" class="TestScripts.CartTest"/>
+        <method signature="WishListTest.addToCartFromWishList()[pri:3, instance:TestScripts.WishListTest@533bda92]" name="addToCartFromWishList" class="TestScripts.WishListTest"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-06-04T15:43:18 IST" name="Default test" finished-at="2025-06-04T15:43:52 IST" duration-ms="33379">
+    <test started-at="2025-06-09T15:34:07 IST" name="Test1" finished-at="2025-06-09T15:35:37 IST" duration-ms="90043">
       <class name="TestScripts.CartTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:18 IST" name="beforeSuite" finished-at="2025-06-04T15:43:18 IST" duration-ms="23" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:18 IST" name="beforeClass" finished-at="2025-06-04T15:43:28 IST" duration-ms="9336" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:07 IST" name="beforeClass" finished-at="2025-06-09T15:34:15 IST" duration-ms="8274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:28 IST" name="beforeMethod" finished-at="2025-06-04T15:43:30 IST" duration-ms="2506" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:15 IST" name="beforeMethod" finished-at="2025-06-09T15:34:17 IST" duration-ms="2279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addToCart()[pri:1, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:30 IST" name="addToCart" finished-at="2025-06-04T15:43:35 IST" duration-ms="4561" status="PASS">
+        <test-method signature="addToCart()[pri:1, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:17 IST" name="addToCart" finished-at="2025-06-09T15:34:21 IST" duration-ms="3943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:35 IST" name="afterMethod" finished-at="2025-06-04T15:43:38 IST" duration-ms="3129" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:21 IST" name="afterMethod" finished-at="2025-06-09T15:34:22 IST" duration-ms="999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:38 IST" name="beforeMethod" finished-at="2025-06-04T15:43:41 IST" duration-ms="2630" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:22 IST" name="beforeMethod" finished-at="2025-06-09T15:34:24 IST" duration-ms="1926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="updateCart()[pri:2, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:41 IST" name="updateCart" finished-at="2025-06-04T15:43:43 IST" duration-ms="2524" status="PASS">
+        <test-method signature="updateCart()[pri:2, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:24 IST" name="updateCart" finished-at="2025-06-09T15:34:26 IST" duration-ms="1725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateCart -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:43 IST" name="afterMethod" finished-at="2025-06-04T15:43:44 IST" duration-ms="1389" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:26 IST" name="afterMethod" finished-at="2025-06-09T15:34:27 IST" duration-ms="888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:44 IST" name="beforeMethod" finished-at="2025-06-04T15:43:47 IST" duration-ms="2652" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:27 IST" name="beforeMethod" finished-at="2025-06-09T15:34:29 IST" duration-ms="1879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="removeFromCart()[pri:3, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:47 IST" name="removeFromCart" finished-at="2025-06-04T15:43:50 IST" duration-ms="2904" status="PASS">
+        <test-method signature="removeFromCart()[pri:3, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:29 IST" name="removeFromCart" finished-at="2025-06-09T15:34:31 IST" duration-ms="2169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeFromCart -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:50 IST" name="afterMethod" finished-at="2025-06-04T15:43:51 IST" duration-ms="1227" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:31 IST" name="afterMethod" finished-at="2025-06-09T15:34:32 IST" duration-ms="1013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:51 IST" name="afterClass" finished-at="2025-06-04T15:43:52 IST" duration-ms="404" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.CartTest@28261e8e]" started-at="2025-06-09T15:34:32 IST" name="afterClass" finished-at="2025-06-09T15:34:32 IST" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestScripts.CartTest@53fb3dab]" started-at="2025-06-04T15:43:52 IST" name="afterSuite" finished-at="2025-06-04T15:43:52 IST" duration-ms="1" status="PASS">
+      </class> <!-- TestScripts.CartTest -->
+      <class name="TestScripts.AddressTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:34:59 IST" name="beforeClass" finished-at="2025-06-09T15:35:03 IST" duration-ms="4604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:03 IST" name="beforeMethod" finished-at="2025-06-09T15:35:05 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addAddress()[pri:1, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:05 IST" name="addAddress" finished-at="2025-06-09T15:35:11 IST" duration-ms="5500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:11 IST" name="afterMethod" finished-at="2025-06-09T15:35:12 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:12 IST" name="beforeMethod" finished-at="2025-06-09T15:35:14 IST" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateAddress()[pri:2, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:14 IST" name="updateAddress" finished-at="2025-06-09T15:35:18 IST" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:18 IST" name="afterMethod" finished-at="2025-06-09T15:35:19 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:19 IST" name="beforeMethod" finished-at="2025-06-09T15:35:21 IST" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="removeAddress()[pri:3, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:21 IST" name="removeAddress" finished-at="2025-06-09T15:35:34 IST" duration-ms="13728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:34 IST" name="afterMethod" finished-at="2025-06-09T15:35:35 IST" duration-ms="901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.AddressTest@5f049ea1]" started-at="2025-06-09T15:35:35 IST" name="afterClass" finished-at="2025-06-09T15:35:37 IST" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestScripts.AddressTest -->
+      <class name="TestScripts.WishListTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:32 IST" name="beforeClass" finished-at="2025-06-09T15:34:38 IST" duration-ms="5909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:38 IST" name="beforeMethod" finished-at="2025-06-09T15:34:40 IST" duration-ms="1981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToWishList()[pri:1, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:40 IST" name="addToWishList" finished-at="2025-06-09T15:34:43 IST" duration-ms="2689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:43 IST" name="afterMethod" finished-at="2025-06-09T15:34:44 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:44 IST" name="beforeMethod" finished-at="2025-06-09T15:34:46 IST" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateWishList()[pri:2, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:46 IST" name="updateWishList" finished-at="2025-06-09T15:34:47 IST" duration-ms="1422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:47 IST" name="afterMethod" finished-at="2025-06-09T15:34:48 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:48 IST" name="beforeMethod" finished-at="2025-06-09T15:34:51 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToCartFromWishList()[pri:3, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:51 IST" name="addToCartFromWishList" finished-at="2025-06-09T15:34:53 IST" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:53 IST" name="afterMethod" finished-at="2025-06-09T15:34:54 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:54 IST" name="beforeMethod" finished-at="2025-06-09T15:34:55 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="removeWishList()[pri:4, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:55 IST" name="removeWishList" finished-at="2025-06-09T15:34:57 IST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:57 IST" name="afterMethod" finished-at="2025-06-09T15:34:58 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.WishListTest@3f191845]" started-at="2025-06-09T15:34:58 IST" name="afterClass" finished-at="2025-06-09T15:34:59 IST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestScripts.WishListTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-06-09T15:35:37 IST" name="Test2" finished-at="2025-06-09T15:39:33 IST" duration-ms="236397">
+      <class name="TestScripts.CartTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:35:37 IST" name="beforeClass" finished-at="2025-06-09T15:35:48 IST" duration-ms="11359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:35:48 IST" name="beforeMethod" finished-at="2025-06-09T15:35:50 IST" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToCart()[pri:1, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:35:50 IST" name="addToCart" finished-at="2025-06-09T15:36:13 IST" duration-ms="22931" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //h1[contains(text(),'Smartphone')]/ancestor::div[@class='overview']/descendant::input[@value='Add to cart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=xpath, value=//h1[contains(text(),'Smartphone')]/ancestor::div[@class='overview']/descendant::input[@value='Add to cart']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //h1[contains(text(),'Smartphone')]/ancestor::div[@class='overview']/descendant::input[@value='Add to cart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=xpath, value=//h1[contains(text(),'Smartphone')]/ancestor::div[@class='overview']/descendant::input[@value='Add to cart']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestScripts.CartTest.addToCart(CartTest.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:36:13 IST" name="afterMethod" finished-at="2025-06-09T15:36:15 IST" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:36:15 IST" name="beforeMethod" finished-at="2025-06-09T15:36:18 IST" duration-ms="2764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateCart()[pri:2, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:36:18 IST" name="updateCart" finished-at="2025-06-09T15:36:38 IST" duration-ms="20807" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@class='qty-input']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=xpath, value=//input[@class='qty-input']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@class='qty-input']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=xpath, value=//input[@class='qty-input']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestScripts.CartTest.updateCart(CartTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:36:38 IST" name="afterMethod" finished-at="2025-06-09T15:36:40 IST" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:36:40 IST" name="beforeMethod" finished-at="2025-06-09T15:37:05 IST" duration-ms="25439" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #Email
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #Email
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at Generic_Utilities.BaseTest.beforeMethod(BaseTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="removeFromCart()[pri:3, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:37:05 IST" name="removeFromCart" finished-at="2025-06-09T15:37:05 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #Email
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #Email
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=id, value=Email}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at Generic_Utilities.BaseTest.beforeMethod(BaseTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromCart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:37:05 IST" name="afterMethod" finished-at="2025-06-09T15:37:25 IST" duration-ms="20281" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: Log out
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Log out
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d6edb6-a08b-4953-9f8b-0f45ad245ca3, findElement {using=link text, value=Log out}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:33895, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12252, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:33895/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 54d6edb6-a08b-4953-9f8b-0f45ad245ca3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at Generic_Utilities.BaseTest.afterMethod(BaseTest.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:623)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.CartTest@548a24a]" started-at="2025-06-09T15:37:25 IST" name="afterClass" finished-at="2025-06-09T15:37:29 IST" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestScripts.CartTest -->
+      <class name="TestScripts.AddressTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:38:57 IST" name="beforeClass" finished-at="2025-06-09T15:39:07 IST" duration-ms="9790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:07 IST" name="beforeMethod" finished-at="2025-06-09T15:39:09 IST" duration-ms="2048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addAddress()[pri:1, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:09 IST" name="addAddress" finished-at="2025-06-09T15:39:14 IST" duration-ms="4885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:14 IST" name="afterMethod" finished-at="2025-06-09T15:39:15 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:15 IST" name="beforeMethod" finished-at="2025-06-09T15:39:17 IST" duration-ms="1786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateAddress()[pri:2, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:17 IST" name="updateAddress" finished-at="2025-06-09T15:39:21 IST" duration-ms="4235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:21 IST" name="afterMethod" finished-at="2025-06-09T15:39:22 IST" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:22 IST" name="beforeMethod" finished-at="2025-06-09T15:39:23 IST" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="removeAddress()[pri:3, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:23 IST" name="removeAddress" finished-at="2025-06-09T15:39:25 IST" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:25 IST" name="afterMethod" finished-at="2025-06-09T15:39:30 IST" duration-ms="5296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.AddressTest@2a693f59]" started-at="2025-06-09T15:39:30 IST" name="afterClass" finished-at="2025-06-09T15:39:33 IST" duration-ms="2770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestScripts.AddressTest -->
+      <class name="TestScripts.WishListTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:37:29 IST" name="beforeClass" finished-at="2025-06-09T15:37:40 IST" duration-ms="10664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:37:40 IST" name="beforeMethod" finished-at="2025-06-09T15:37:42 IST" duration-ms="2011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToWishList()[pri:1, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:37:42 IST" name="addToWishList" finished-at="2025-06-09T15:37:43 IST" duration-ms="1677" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given link text expression "Smartphone" is invalid: JavaScriptError: [Exception... "Security Manager vetoed action"  nsresult: "0x80570027 (NS_ERROR_XPC_SECURITY_MANAGER_VETO)"  location: "JS frame :: dummy file :: T :: line 15"  data: no]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=link text, value=Smartphone}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given link text expression "Smartphone" is invalid: JavaScriptError: [Exception... "Security Manager vetoed action"  nsresult: "0x80570027 (NS_ERROR_XPC_SECURITY_MANAGER_VETO)"  location: "JS frame :: dummy file :: T :: line 15"  data: no]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=link text, value=Smartphone}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestScripts.WishListTest.addToWishList(WishListTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:37:43 IST" name="afterMethod" finished-at="2025-06-09T15:37:45 IST" duration-ms="1224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:37:45 IST" name="beforeMethod" finished-at="2025-06-09T15:37:46 IST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateWishList()[pri:2, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:37:46 IST" name="updateWishList" finished-at="2025-06-09T15:38:07 IST" duration-ms="20612" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@class='qty-input']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=xpath, value=//input[@class='qty-input']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@class='qty-input']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=xpath, value=//input[@class='qty-input']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestScripts.WishListTest.updateWishList(WishListTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:38:07 IST" name="afterMethod" finished-at="2025-06-09T15:38:08 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:38:08 IST" name="beforeMethod" finished-at="2025-06-09T15:38:09 IST" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToCartFromWishList()[pri:3, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:38:09 IST" name="addToCartFromWishList" finished-at="2025-06-09T15:38:30 IST" duration-ms="20512" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: *[name='addtocart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=name, value=addtocart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='addtocart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=name, value=addtocart}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestScripts.WishListTest.addToCartFromWishList(WishListTest.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:38:30 IST" name="afterMethod" finished-at="2025-06-09T15:38:31 IST" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:38:31 IST" name="beforeMethod" finished-at="2025-06-09T15:38:33 IST" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="removeWishList()[pri:4, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:38:33 IST" name="removeWishList" finished-at="2025-06-09T15:38:53 IST" duration-ms="20543" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@name='removefromcart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=xpath, value=//input[@name='removefromcart']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name='removefromcart']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [230fdeb1-a145-406e-8097-cf42694524bd, findElement {using=xpath, value=//input[@name='removefromcart']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:debuggerAddress: 127.0.0.1:11295, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14668, moz:profile: C:\Users\MR\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:11295/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 230fdeb1-a145-406e-8097-cf42694524bd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestScripts.WishListTest.removeWishList(WishListTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:38:53 IST" name="afterMethod" finished-at="2025-06-09T15:38:54 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.WishListTest@433defed]" started-at="2025-06-09T15:38:54 IST" name="afterClass" finished-at="2025-06-09T15:38:57 IST" duration-ms="2770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestScripts.WishListTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-06-09T15:39:33 IST" name="Test3" finished-at="2025-06-09T15:41:11 IST" duration-ms="98015">
+      <class name="TestScripts.CartTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:34:07 IST" name="beforeSuite" finished-at="2025-06-09T15:34:07 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:39:33 IST" name="beforeClass" finished-at="2025-06-09T15:39:45 IST" duration-ms="11857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:39:45 IST" name="beforeMethod" finished-at="2025-06-09T15:39:47 IST" duration-ms="1918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToCart()[pri:1, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:39:47 IST" name="addToCart" finished-at="2025-06-09T15:39:51 IST" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:39:51 IST" name="afterMethod" finished-at="2025-06-09T15:39:52 IST" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:39:52 IST" name="beforeMethod" finished-at="2025-06-09T15:39:54 IST" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateCart()[pri:2, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:39:54 IST" name="updateCart" finished-at="2025-06-09T15:39:55 IST" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:39:55 IST" name="afterMethod" finished-at="2025-06-09T15:39:56 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:39:56 IST" name="beforeMethod" finished-at="2025-06-09T15:39:58 IST" duration-ms="1831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="removeFromCart()[pri:3, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:39:58 IST" name="removeFromCart" finished-at="2025-06-09T15:40:00 IST" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromCart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:40:00 IST" name="afterMethod" finished-at="2025-06-09T15:40:01 IST" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:40:01 IST" name="afterClass" finished-at="2025-06-09T15:40:03 IST" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestScripts.CartTest@7fd50002]" started-at="2025-06-09T15:41:11 IST" name="afterSuite" finished-at="2025-06-09T15:41:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- TestScripts.CartTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestScripts.AddressTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:40:29 IST" name="beforeClass" finished-at="2025-06-09T15:40:35 IST" duration-ms="6217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:40:35 IST" name="beforeMethod" finished-at="2025-06-09T15:40:37 IST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addAddress()[pri:1, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:40:37 IST" name="addAddress" finished-at="2025-06-09T15:40:43 IST" duration-ms="5510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:40:43 IST" name="afterMethod" finished-at="2025-06-09T15:40:44 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:40:44 IST" name="beforeMethod" finished-at="2025-06-09T15:40:46 IST" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateAddress()[pri:2, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:40:46 IST" name="updateAddress" finished-at="2025-06-09T15:40:50 IST" duration-ms="4243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:40:50 IST" name="afterMethod" finished-at="2025-06-09T15:40:51 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:40:51 IST" name="beforeMethod" finished-at="2025-06-09T15:40:53 IST" duration-ms="1828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="removeAddress()[pri:3, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:40:53 IST" name="removeAddress" finished-at="2025-06-09T15:41:09 IST" duration-ms="15898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAddress -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:41:09 IST" name="afterMethod" finished-at="2025-06-09T15:41:10 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.AddressTest@304bb45b]" started-at="2025-06-09T15:41:10 IST" name="afterClass" finished-at="2025-06-09T15:41:11 IST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestScripts.AddressTest -->
+      <class name="TestScripts.WishListTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:03 IST" name="beforeClass" finished-at="2025-06-09T15:40:09 IST" duration-ms="6539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:09 IST" name="beforeMethod" finished-at="2025-06-09T15:40:11 IST" duration-ms="1905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToWishList()[pri:1, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:11 IST" name="addToWishList" finished-at="2025-06-09T15:40:14 IST" duration-ms="2653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:14 IST" name="afterMethod" finished-at="2025-06-09T15:40:15 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:15 IST" name="beforeMethod" finished-at="2025-06-09T15:40:16 IST" duration-ms="1764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="updateWishList()[pri:2, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:16 IST" name="updateWishList" finished-at="2025-06-09T15:40:18 IST" duration-ms="1497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:18 IST" name="afterMethod" finished-at="2025-06-09T15:40:19 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:19 IST" name="beforeMethod" finished-at="2025-06-09T15:40:21 IST" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addToCartFromWishList()[pri:3, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:21 IST" name="addToCartFromWishList" finished-at="2025-06-09T15:40:23 IST" duration-ms="2029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:23 IST" name="afterMethod" finished-at="2025-06-09T15:40:24 IST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:24 IST" name="beforeMethod" finished-at="2025-06-09T15:40:26 IST" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="removeWishList()[pri:4, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:26 IST" name="removeWishList" finished-at="2025-06-09T15:40:27 IST" duration-ms="1421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeWishList -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:27 IST" name="afterMethod" finished-at="2025-06-09T15:40:28 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestScripts.WishListTest@533bda92]" started-at="2025-06-09T15:40:28 IST" name="afterClass" finished-at="2025-06-09T15:40:29 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestScripts.WishListTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
 </testng-results>
