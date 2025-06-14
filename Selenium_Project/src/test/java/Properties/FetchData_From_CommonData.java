@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class LoginToDWS {
+public class FetchData_From_CommonData {
 
 	@Test
 	public void LoginTODWS() throws Exception {
