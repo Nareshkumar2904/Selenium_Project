@@ -3,8 +3,6 @@ package Properties;
 import java.io.FileInputStream;
 import java.time.Duration;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
@@ -13,35 +11,33 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import Generic_Utilities.File_Utilities;
 
-public class FetchData_From_Excel{
-	@Test
-	public void registerTest() throws Exception{
-		// Create Java Representation Object of External file
+public class FetchMultipleData_From_Excel {
+	@DataProvider
+	public String[][] registerData() throws Exception {
+
 		FileInputStream fis = new FileInputStream("./src/test/resources/DWS.xlsx");
-
-		// Open workbook in readmode
 		Workbook wb = WorkbookFactory.create(fis);
-
-		// Go to sheet by name
 		Sheet sheet = wb.getSheet("DWS");
+		int rowNum = sheet.getPhysicalNumberOfRows();
+		int cellNum = sheet.getRow(0).getPhysicalNumberOfCells();
+		String[][] data = new String[rowNum - 1][cellNum];
 
-		// GO to tthe specific row by index
-		Row row = sheet.getRow(1);
-
-		// Go to the specific cell by index
-		Cell cell = row.getCell(0);
-
-		// Fetch the data from the cell
-		String gender = cell.toString();
-		String firstName = row.getCell(1).getStringCellValue();
-		String lastName = File_Utilities.getDataFromExcel("DWS", 1, 2);
-		String email = File_Utilities.getDataFromExcel("DWS", 1, 3);
-		String pwd = File_Utilities.getDataFromExcel("DWS", 1, 4);
-		String cpwd = File_Utilities.getDataFromExcel("DWS", 1, 5);
+		for (int i = 1; i < rowNum; i++) {
+			for (int j = 0; j < cellNum; j++) {
+				data[i - 1][j] = sheet.getRow(i).getCell(j).toString();
+			}
+		}
+		return data;
+	}
+ 
+	@Test(dataProvider = "registerData")
+	public void registerTest(String gender, String firstName, String lastName, String email, String pwd, String cpwd)
+			throws Exception {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -72,5 +68,5 @@ public class FetchData_From_Excel{
 			driver.quit();
 		}
 	}
-	}
-	
+
+}
