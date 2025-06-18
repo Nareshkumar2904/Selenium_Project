@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Properties.FetchMultipleData_From_Excel">
+      <class name="Properties.learning_POM_class">
         <methods>
-          <include name="registerTest" invocation-numbers="0 1"/>
+          <include name="learningPOM"/>
         </methods>
-      </class> <!-- Properties.FetchMultipleData_From_Excel -->
+      </class> <!-- Properties.learning_POM_class -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

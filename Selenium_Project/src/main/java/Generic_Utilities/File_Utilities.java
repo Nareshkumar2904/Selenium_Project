@@ -45,10 +45,37 @@ public class File_Utilities {
 			// TODO: handle exception
 		}
 		Sheet sheet = book.getSheet(sheetName);
-		Row row = sheet.getRow(rowNum);
-		Cell cell = row.getCell(cellNum);
-		String data = cell.toString();
+		Row row = sheet.getRow(rowNum - 1);
+		Cell cell = row.getCell(cellNum - 1);
+		String data = cell.getStringCellValue();
 		return data;
+	}
+
+	public static String[][] getMultipleDataFromExcel(String sheetName) {
+		FileInputStream fis = null;
+		Workbook book = null;
+
+		try {
+			fis = new FileInputStream("./src/test/resources/DWS.xlsx");
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			book = WorkbookFactory.create(fis);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		Sheet sheet = book.getSheet(sheetName);
+		int rowNum = sheet.getPhysicalNumberOfRows();
+		int cellNum = sheet.getRow(0).getPhysicalNumberOfCells();
+		String[][] data = new String[rowNum - 1][cellNum];
+		for (int i = 0; i < rowNum; i++) {
+			for (int j = 0; j < cellNum; j++) {
+				data[i - 1][j] = sheet.getRow(i).getCell(j).toString();
+			}
+		}
+		return data;
+
 	}
 
 }
